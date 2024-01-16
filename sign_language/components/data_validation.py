@@ -54,8 +54,7 @@ class DataValidation:
         logging.info("Entered initiate_data_validation method of DataValidation class")
         try:
             status = self.validate_all_files_exist()
-            data_validation_artifact = DataValidationArtifact(
-                validation_status=status)
+            data_validation_artifact = DataValidationArtifact(validation_status=status)
 
             logging.info("Exited initiate_data_validation method of DataValidation class")
             logging.info(f"Data validation artifact: {data_validation_artifact}")
