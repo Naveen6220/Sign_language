@@ -42,5 +42,5 @@ MODEL_TRAINER_BATCH_SIZE: int = 32
 """
 MODEL PUSHER related constant start with MODEL_PUSHER var name
 """
-BUCKET_NAME = "sign-lang-22"
+BUCKET_NAME = "sign-lang-24"
 S3_MODEL_NAME = "best.pt"
