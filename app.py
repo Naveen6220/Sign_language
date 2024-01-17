@@ -8,6 +8,8 @@ from sign_language.constant.application import APP_HOST, APP_PORT
 
 
 
+
+
 app = Flask(__name__)
 CORS(app)
 
