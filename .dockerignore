@@ -3,7 +3,7 @@ demo
 env
 sign
 venv
-logs
+log
 infrastructure
 docs
 signLanguages.egg-info
